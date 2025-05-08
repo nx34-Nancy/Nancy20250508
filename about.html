@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+      padding: 2rem;
+    }
+    h1, h2 {
+      font-family: 'Oswald', sans-serif;
+      margin-top: 2rem;
+      text-transform: uppercase;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">1oca Cola Journey</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Drinks</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="coke.html">Coca Cola</a></li>
+              <li><a class="dropdown-item" href="sprite.html">Sprite</a></li>
+              <li><a class="dropdown-item" href="dr-pepper.html">Dr Pepper</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h1>About</h1>
+    <p>For my website, I created a marketing website for Coca-Cola. I added a 3D model of a can with an opening animation and sound effect, as well as a crushed version of the can.</p>
+
+    <h2>3D Models</h2>
+    <p>For this module, I created Coke, Sprite, and Dr Pepper cans, each on their own webpage. I built an animation for the Coke can where the ring pull and tab move as though opening the can. A crushed can model was also created as a separate animation.</p>
+
+    <div class="row text-center my-4">
+      <div class="col-md-4">
+        <img src="assets/images/pic1.jpg" alt="Coke Model" class="img-fluid rounded">
+      </div>
+      <div class="col-md-4">
+        <img src="assets/images/pic2.jpg" alt="Sprite Model" class="img-fluid rounded">
+      </div>
+      <div class="col-md-4">
+        <img src="assets/images/pic3.jpg" alt="Dr Pepper Model" class="img-fluid rounded">
+      </div>
+    </div>
+    <p>For Sprite and Dr Pepper, I designed a different opening mechanism and unique animations showing the bottles being crushed.</p>
+
+    <h2>Design</h2>
+    <p>I integrated the can model within a responsive canvas using Bootstrap and added a navigation bar. Custom CSS was used to improve the interactivity and aesthetics of the interface. I used Three.js to apply a Hemisphere Light for ambient lighting, and a Spot Light with a dat.GUI panel for user-controlled lighting effects.</p>
+    <p>The 3D models were loaded using Three.js. I also created interactive buttons for users to open the can, switch models, and play the crushing animation.</p>
+
+    <div class="text-center my-4">
+      <img src="assets/images/pic4.jpg" alt="Design Example" class="img-fluid rounded">
+    </div>
+
+    <h2>Integration</h2>
+    <p>I edited and enhanced audio using Adobe Audition, synchronizing it with the animations when they played on the website. I also added images to the landing page that resize responsively based on screen size using CSS.</p>
+
+    <h2>Interaction</h2>
+    <p>I implemented orbit controls so users can freely rotate the 3D model. A toggle button was added to switch between different models inside the Bootstrap canvas, making the experience more dynamic and interactive.</p>
+
+    <h2>Implementation</h2>
+    <p>I conducted several walkthroughs to test functionality and usability. The background color was modified to make the design feel more vibrant. I center-aligned the layout and bolded key text for better readability.</p>
+
+    <h2>Deeper Understanding</h2>
+    <p>Beyond the lab videos, I independently developed and integrated three completely different models. I refined the layout and style continuously, aiming for a unique and cohesive visual identity for the site.</p>
+
+    <div class="row text-center my-4">
+      <div class="col-md-6">
+        <img src="assets/images/pic5.jpg" alt="Deeper Understanding Image 1" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <img src="assets/images/pic6.jpg" alt="Deeper Understanding Image 2" class="img-fluid rounded">
+      </div>
+    </div>
+
+    <h2>Implementation and Publication</h2>
+    <p>An About page was added to provide context. I zipped the website folder and tested it in Visual Studio Code to confirm that it works as expected after extraction.</p>
+  </div>
+</body>
+</html>
